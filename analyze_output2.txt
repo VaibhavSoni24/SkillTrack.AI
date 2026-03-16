@@ -1,14 +1,8 @@
 ﻿Analyzing lib...
 
-warning - core\utils\analytics_service.dart:4:8 - Unused import: '../../../core/network/api_endpoints.dart'. Try removing the import directive. - unused_import
-warning - core\utils\analytics_service.dart:8:20 - The value of the field '_apiClient' isn't used. Try removing the field, or using it. - unused_field
-warning - features\portfolio\presentation\portfolio_page.dart:12:8 - Unused import: '../../../shared/widgets/gradient_button.dart'. Try removing the import directive. - unused_import
-warning - features\portfolio\presentation\portfolio_page.dart:35:11 - The value of the local variable 'isWide' isn't used. Try removing the variable or using it. - unused_local_variable
-warning - features\profile\presentation\public_profile_page.dart:13:8 - Unused import: '../../../shared/widgets/skeleton_loader.dart'. Try removing the import directive. - unused_import
-warning - features\profile\presentation\public_profile_page.dart:14:8 - Unused import: '../../../shared/widgets/xp_progress_bar.dart'. Try removing the import directive. - unused_import
-warning - features\profile\presentation\public_profile_page.dart:39:11 - The value of the local variable 'isWide' isn't used. Try removing the variable or using it. - unused_local_variable
-warning - features\settings\presentation\settings_page.dart:6:8 - Unused import: '../../../features/auth/data/auth_repository.dart'. Try removing the import directive. - unused_import
-warning - features\settings\presentation\settings_page.dart:8:8 - Unused import: '../../../features/auth/providers/auth_state.dart'. Try removing the import directive. - unused_import
+warning - features\portfolio\presentation\portfolio_page.dart:6:8 - Unused import: '../../../core/config/app_constants.dart'. Try removing the import directive. - unused_import
+warning - features\profile\presentation\public_profile_page.dart:5:8 - Unused import: '../../../core/config/app_constants.dart'. Try removing the import directive. - unused_import
+warning - features\settings\presentation\settings_page.dart:7:8 - Unused import: '../../../features/auth/data/auth_repository.dart'. Try removing the import directive. - unused_import
    info - core\network\api_exceptions.dart:18:9 - Parameter 'message' could be a super parameter. Trying converting 'message' to a super parameter. - use_super_parameters
    info - core\network\api_exceptions.dart:23:9 - Parameter 'message' could be a super parameter. Trying converting 'message' to a super parameter. - use_super_parameters
    info - core\network\api_exceptions.dart:28:9 - Parameter 'message' could be a super parameter. Trying converting 'message' to a super parameter. - use_super_parameters
@@ -27,13 +21,13 @@ warning - features\settings\presentation\settings_page.dart:8:8 - Unused import:
    info - features\dashboard\presentation\dashboard_page.dart:160:36 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\dashboard\presentation\dashboard_page.dart:239:25 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\dashboard\presentation\dashboard_page.dart:247:26 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
-   info - features\portfolio\presentation\portfolio_page.dart:157:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
-   info - features\profile\presentation\public_profile_page.dart:45:20 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - features\portfolio\presentation\portfolio_page.dart:155:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - features\profile\presentation\public_profile_page.dart:42:20 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\projects\presentation\add_project_page.dart:170:55 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\projects\presentation\add_project_page.dart:170:59 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\projects\presentation\projects_page.dart:147:25 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\projects\presentation\projects_page.dart:155:26 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
-   info - features\settings\presentation\settings_page.dart:166:23 - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - features\settings\presentation\settings_page.dart:167:23 - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
    info - features\skills\presentation\skills_page.dart:78:36 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\skills\presentation\skills_page.dart:106:36 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - features\skills\presentation\skills_page.dart:219:25 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
@@ -46,4 +40,4 @@ warning - features\settings\presentation\settings_page.dart:8:8 - Unused import:
    info - shared\widgets\project_card.dart:72:44 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
    info - shared\widgets\project_card.dart:72:48 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
 
-45 issues found.
+39 issues found.
